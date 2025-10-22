@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Core1 Valeska Powell</title>
+    </head>
+    <body>
+        <h1> !Registrate y únete a la comunidad!</h1>
+        <form action="/registro" method="post">
+            <div>
+                <label>Nombre: </label>
+                <input type="text" name="nombre" placeholder="Ingresa tu nombre " />
+            </div>
+            <p></p>
+            <div>
+                <label>Apellido: </label>
+                <input type="text" name="apellido" placeholder="Ingresa tu apellido " />
+            </div>
+            <p></p>
+            </form>
+            <div>
+                <label>Correo electrónico: </label>
+                <input type="text" name="correo" placeholder="Ingresa tu correo " />
+            </div>
+            <p></p>
+            <div>
+                <label>Contraseña: </label>
+                <input type="password" name="contraseña" placeholder="Ingresa tu contraseña" />
+            </div>
+            <p></p>
+                        <div>
+                <label for="fecha_nacimiento">Fecha de nacimiento: </label>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" />
+            </div>
+            <p></p>
+            <div>
+                <label>Género:</label>
+                <input type="radio" id="normal name="estilo_fuente" value="bold" />
+                <label for="normal">Masculino</Masculino></label>
+                <input type="radio" id="normal" name="estilo_fuente" value="normal" />
+                <label for="normal">Femenino</label>
+            </div>
+            <p></p>            
+            <div>
+                <input type="checkbox" name="suscribirse"  />
+                <label for="suscribirse">Suscribete  a nuestro boletín de noticias.</label>
+            </div>
+            <p></p>
+            <div>
+                <label for="comentario">Una descripción de mi mismo: </label><p>
+                <textarea id="comentario" name="comentario" rows="4" cols="30"></textarea>
+            </div>
+            <p></p>
+            <div>
+                <label for="intereses">Selecciona tus Intereses </label><p>
+                
+                <select id="intereses" name="intereses">
+                    <option value="Música">Música</option>
+                    <option value="Deportes">Deportes</option>
+                    <option value="Tecnología">Tecnología</option></select>
+            </div>
+            <p></p>
+            <p></p>
+            <input type="submit" value="¡Registrarse!" />
+        </form>
+    </body>
+</html>
